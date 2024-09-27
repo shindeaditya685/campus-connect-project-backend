@@ -4,6 +4,7 @@
   "description": "backend of old book selling app",
   "main": "index.ts",
   "scripts": {
+    "build": "tsc",
     "dev": "nodemon -r dotenv/config src/index.ts"
   },
   "author": "Aditya Shinde",
