@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Upgraded from es6 to ES2020
+    "module": "CommonJS", // Using CommonJS for Node.js
+    "outDir": "./dist", // Compiled files will go here
+    "strict": true, // Enable strict type-checking
+    "esModuleInterop": true, // Allow default imports from non-ES modules
+    "skipLibCheck": true, // Skip type checks on declaration files
+    "forceConsistentCasingInFileNames": true, // Enforce file name consistency
+    "moduleResolution": "node" // Ensures correct module resolution
+  },
+  "include": ["src/**/*.ts"], // Include all TypeScript files in src
+  "exclude": ["node_modules"] // Exclude node_modules folder
+}
