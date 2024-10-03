@@ -4,8 +4,8 @@
   "description": "backend of old book selling app",
   "main": "index.ts",
   "scripts": {
-    "build": "tsc",
-    "start": "nodemon -r dotenv/config src/index.ts"
+    "build": "rimraf dist && tsc",
+    "start": "nodemon src/index.ts"
   },
   "author": "Aditya Shinde",
   "license": "ISC",
