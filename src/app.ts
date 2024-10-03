@@ -27,9 +27,6 @@ app.use("/api/v1/users", userRouter);
 app.use("/api/v1/books", bookRouter);
 app.use("/api/v1/carts", cartRouter);
 app.use("/api/v1/orders", orderRouter);
-app.get("/hello", (req: Request, res: Response) => {
-  return res.json({ message: "Hello" });
-});
 
 // Error handling middleware
 app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
